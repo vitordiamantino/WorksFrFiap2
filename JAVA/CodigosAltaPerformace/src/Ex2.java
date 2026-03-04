@@ -14,8 +14,8 @@ public class Ex2 {
         }
 
         double media[] = new double[n];
+        calcularMedia(n,nota1,nota2,media);
         for (int i = 0; i < n ; i++) {
-            media[i] = (nota1[i] + nota2[i]/2);
             System.out.println("RM: "+rms[i]+"\t média: "+media[i]);
         }
 
@@ -47,5 +47,11 @@ public class Ex2 {
             System.out.println();
         }
         return n;
+    }
+
+    public static void calcularMedia(int n, double[]nota1, double[]nota2 , double[]media){
+        for (int i = 0; i < n ; i++) {
+            media[i] = (nota1[i] + nota2[i] / 2);
+        }
     }
 }
