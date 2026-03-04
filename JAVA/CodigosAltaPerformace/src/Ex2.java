@@ -13,6 +13,13 @@ public class Ex2 {
             System.out.println(rms[i]);
         }
 
+        double media[] = new double[n];
+        for (int i = 0; i < n ; i++) {
+            media[i] = (nota1[i] + nota2[i]/2);
+            System.out.println("RM: "+rms[i]+"\t média: "+media[i]);
+        }
+
+
     }
 
     public  static int entradaDados(int[]rms, double[] nota1, double[] nota2){
