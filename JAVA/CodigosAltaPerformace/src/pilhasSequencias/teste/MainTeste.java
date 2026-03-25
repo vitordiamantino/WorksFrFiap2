@@ -17,6 +17,16 @@ public class MainTeste {
         if (pilha.isEmpty()){
             System.out.println("Stack is empty");
         } else {
+            System.out.println("Valor do dados está no topo da pilha: " +pilha.top());
+
+        }
+
+        pilha.esvazia();
+
+
+        if (pilha.isEmpty()){
+            System.out.println("Stack is empty");
+        } else {
             System.out.println("Valor retirado:" +pilha.pop());
 
         }

@@ -30,6 +30,14 @@ public class PilhaInt {
             return dados[topo];
 
     }
+    public int top(){
+        return dados[topo-1];
+    }
+    public void esvazia(){
+        while (!isEmpty()){
+            System.out.print("\t" + pop());
+        }
+    }
 
 
 }
