@@ -21,6 +21,7 @@ public class Main {
         for (Empregado e : empregado) {
             System.out.println(e.matricula);
             System.out.println(e.nome);
+            System.out.println(e.calcularSalario());
             System.out.println();
         }
     }

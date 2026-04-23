@@ -8,4 +8,8 @@ public class Empregado {
         this.matricula = matricula;
         this.nome = nome;
     }
+
+    public double calcularSalario(){
+        return 0;
+    }
 }

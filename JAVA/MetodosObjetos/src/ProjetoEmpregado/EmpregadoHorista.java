@@ -10,4 +10,8 @@ public class EmpregadoHorista extends Empregado {
         this.valorDaHora = valorDaHora;
     }
 
+    public double calcularSalario(){
+        return totalDeHorasTrabalhadas * valorDaHora;
+    }
+
 }
