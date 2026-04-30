@@ -18,5 +18,11 @@ public class Main {
             System.out.println(conta.getSaldoDisponivel());
 
         }
+
+        for (Conta conta : lista){
+            if (conta instanceof Poupanca){
+                ((Poupanca) conta).aplicarRendimento();
+            }
+        }
     }
 }
