@@ -9,7 +9,7 @@ public class Conexao {
     private final String user = "pf0015";
     private final String password = "fiap26";
 
-    public Connection conectar{
+    public Connection conectar {
         try {
             return DriverManager.getConnection(url, user, password);
         }
