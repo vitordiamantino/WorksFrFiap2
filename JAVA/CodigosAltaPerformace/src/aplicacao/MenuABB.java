@@ -34,6 +34,7 @@ public class MenuABB {
             }while (opcao != 0);
 
         }
+        return;
     }
 
 }
