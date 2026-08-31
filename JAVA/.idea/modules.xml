@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodigosAltaPerformace/CodigosAltaPerformace.iml" filepath="$PROJECT_DIR$/CodigosAltaPerformace/CodigosAltaPerformace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MetodosObjetos/ComparableEConnections/ComparableEConnections.iml" filepath="$PROJECT_DIR$/MetodosObjetos/ComparableEConnections/ComparableEConnections.iml" />
       <module fileurl="file://$PROJECT_DIR$/MetodosObjetos/JavaSQL/JavaSQL.iml" filepath="$PROJECT_DIR$/MetodosObjetos/JavaSQL/JavaSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/MetodosObjetos/MetodosObjetos.iml" filepath="$PROJECT_DIR$/MetodosObjetos/MetodosObjetos.iml" />
       <module fileurl="file://$PROJECT_DIR$/WorksFrFiap2.iml" filepath="$PROJECT_DIR$/WorksFrFiap2.iml" />
