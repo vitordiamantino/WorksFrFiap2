@@ -2,6 +2,7 @@ package exercicio14.exemplos;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -15,9 +16,17 @@ public class Main {
             System.out.println(aluno);
         });
 
-        //ordenação
+        //ordenação usando o método compareTO da interface COMPARABLE
 
         Collections.sort(lista);
+        lista.forEach(aluno -> {
+            System.out.println(aluno);
+        });
+
+        //ordenação usando critério lambda
+
+        System.out.println();
+        lista.sort(Comparator.comparing(Aluno::getRm).thenComparing(Comparator.comparing(Aluno::getNome)));
         lista.forEach(aluno -> {
             System.out.println(aluno);
         });

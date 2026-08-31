@@ -32,7 +32,7 @@ public class Aluno implements Comparable<Aluno> {
 
 
     @Override
-    public int compareTo(Aluno o) {
-        return 0;
+    public int compareTo(Aluno aluno) {
+        return this.nome.compareTo(aluno.getNome());
     }
 }
