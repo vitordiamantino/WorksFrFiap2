@@ -10,8 +10,8 @@ public class Main {
         lista.add(new Candidato("Gigi", 3.5, 1));
         lista.add(new Candidato("Vitor", 4, 15));
 
-        lista.sort(Comparator.comparing(Candidato::getNotaTecnica).reversed()
-                .thenComparing(Candidato::getAnosExperiencia).reversed()
+        lista.sort(Comparator.comparing(Candidato::getNotaTecnica)
+                .thenComparing(Candidato::getAnosExperiencia)
                 .thenComparing(Candidato::getNome));
 
         lista.forEach(candidato -> {
