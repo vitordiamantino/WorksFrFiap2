@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JAVA/CodigosAltaPerformace/CodigosAltaPerformace.iml" filepath="$PROJECT_DIR$/JAVA/CodigosAltaPerformace/CodigosAltaPerformace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/MetodosObjetos/ProgramacaoFuncional/Funcional/Funcional.iml" filepath="$PROJECT_DIR$/JAVA/MetodosObjetos/ProgramacaoFuncional/Funcional/Funcional.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA/JAVA.iml" filepath="$PROJECT_DIR$/JAVA/JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA/MetodosObjetos/JavaSQL2/JavaSQL2.iml" filepath="$PROJECT_DIR$/JAVA/MetodosObjetos/JavaSQL2/JavaSQL2.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA/MetodosObjetos/MetodosObjetos.iml" filepath="$PROJECT_DIR$/JAVA/MetodosObjetos/MetodosObjetos.iml" />
